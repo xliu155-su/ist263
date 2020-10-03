@@ -1,0 +1,15 @@
+body {
+    font-family: "Aria Black", Gadget, sans-serif
+}
+h1, h2 {
+    color: Olive;
+}
+.evenrow {
+    background-color:Lightgray;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
