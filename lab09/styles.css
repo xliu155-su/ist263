@@ -1,0 +1,61 @@
+body {
+    background-color: #637373;
+}
+p, ul {
+    color: #000000;
+}
+a {
+    color: #70ADB5;
+}
+h1, h2 {
+    color: #FF9A76;
+    margin: 0.5em;
+}
+nav {
+    background-color: #70ADB5;
+}
+nav a {
+    color: #FFFFFF;
+}
+nav a:hover {
+    background-color: #FFEADB;
+}
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.quote {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.quote p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-p {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.footer-p2 {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    float: right;
+}
+
+footer div {
+    display: flex;
+    
+}
+
+/*******/
+
+.linkedin img {
+    width: 5%;
+}

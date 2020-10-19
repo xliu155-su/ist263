@@ -1,0 +1,149 @@
+<!Doctype html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta name="viewport" contect="width=device=width,initial-scale=1">
+    <link rel="stylesheet" href="../lab09/styles.css">
+    <style>
+        .p1 {
+            margin: 2em;
+            padding: 0.2em 0 7em 0; 
+            border-radius: 10px;
+            background-color: lightgrey;
+        }
+
+
+        .address {
+            float:left;
+            margin: 1em 0 2em 0;
+            padding: 0;
+        }
+
+        .address p {
+            margin: 0;
+            padding: 0 0 0 1em;
+        }
+        .email {
+            width: 75%;
+            float: right;
+            margin: 1em 0 0 0;
+            padding: 0;
+          
+        }
+
+        .email p {
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        .linkedin {
+            width: 75%;
+            float: right;
+            margin: 1em 0 0 0;
+            padding: 0;
+        }
+
+        .linkedin p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .p2 {
+            display: flex;
+            padding: 2em 0 6em 0; 
+            margin: 1.5em;
+            border-radius: 10px;
+            background-color: lightgrey;
+        }
+
+
+        .map {
+            margin: 0;
+            padding: 0 2em 1.3em 0;
+            flex: 1;
+            order: 2;
+        }
+
+        .form {
+            flex: 1;
+            order: 1;
+            padding: 1.3em 1.3em 1.3em 2em;
+        }
+
+        iframe {
+            width: 100%;
+            height: 130%;
+        }
+        .clearfloat {clear: both;}
+    </style>
+</head>
+
+    <body>
+        <nav>
+            <a href="../lab08/index.html">Bio page</a> |
+            <a href="../lab08/skills.html">Skills page</a> |
+            <a href="../lab08/contact.html">Contact page</a>
+        </nav>
+        <h1>Contact</h1>
+
+        <div class="p1">
+            <h2>Address</h2>
+            <div class="address">
+                <p>Syracuse University<br>
+                    900 South Crouse Ave.<br>
+                    Syracuse, NY 13244
+                </p>
+            </div>
+            <div class="email">
+                <p><a href="xliu155@syr.edu">xliu155@syr.edu</a></p>
+            </div>
+            
+            <div class="linkedin">
+                <p><img src="../Images/logo-word.png" alt="Linkedin image">
+                    <a href="https://www.linkedin.com/in/xiaoyi-liu-xliu70524">My Linkedln Profile</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="clearfloat"></div>
+
+        <div class="p2">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46668.40616519603!2d-76.11158042636718!3d43.025114756111655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1599750841023!5m2!1sen!2sus"  frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <div class="form">
+                <form action="mailto:xliu155@syr.edu" method="post">
+
+                    Please Enter your name:<br>
+                    <lable for="fname">First Name:</lable><br>
+                    <input type="text" id="fname" name="fname" style="width: 70%;"><br>
+                    <lable for="lname">Last Name:</lable><br>
+                    <input type="text" id="lname" name="lname" style="width: 70%;">
+                    <br>
+                    <br>
+
+                    Please select your Gender:<br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <lable for="male">Male</lable><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <lable for="female">Female</lable><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <lable for="other">other</lable>
+                    <br>
+                    <br>
+
+                    <label for="coment">Comment:</label><br>
+                    <textarea id="coment" name="comment" style="width: 70%; height: 60px;">
+
+
+                    </textarea><br>
+                    <input type="submit" value="Submit">
+            </div>
+        </div>
+
+        </form>
+    
+    </body>
+</html>
