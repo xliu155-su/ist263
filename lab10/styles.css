@@ -1,5 +1,5 @@
 body {
-    background-color: #637373;
+    background-color: #edc988;
 }
 
 p, ul {
@@ -9,19 +9,19 @@ a {
     color: #70ADB5;
 }
 h1, h2 {
-    color: #FF9A76;
+    color: #1f3c88;
     margin: 0.5em;
 }
 nav {
-    background-color: #70ADB5;
+    background-color: #b2deec;
     
 }
 nav a {
-    color: #FFFFFF;
+    color: #000000;
     
 }
 nav a:hover {
-    background-color: #2b5161;
+    background-color: #eeeeee;
 }
 nav {
     padding: 10px;
@@ -126,11 +126,15 @@ footer div {
     flex: 1;
     order: 2;
 }
+.form h2 {
+    padding-bottom: 0.5em;
+    margin-left: 0;
+}
 
 .form {
     flex: 1;
     order: 1;
-    padding: 1.3em 1.3em 1.3em 2em;
+    padding: 0.7em 1.3em 1.3em 2em;
 }
 
 iframe {

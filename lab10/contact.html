@@ -1,0 +1,81 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../lab10/styles.css">
+</head>
+
+    <body>
+        <nav>
+            <a href="../lab10/index.html">Bio page</a> <span>|</span>
+            <a href="../lab10/skills.html">Skills page</a> <span>|</span>
+            <a href="../lab10/contact.html">Contact page</a>
+        </nav>
+        <h1>Contact</h1>
+
+        <section class="p1">
+            <div class="address">
+                <h2>Address</h2>
+                <p>Syracuse University<br>
+                    900 South Crouse Ave.<br>
+                    Syracuse, NY 13244
+                </p>
+            </div>
+
+            <div class="contact-info">
+                <div class="email">
+                    <p style="display:inline">Click to email me: </p> 
+                    <p style="display:inline"><a href="xliu155@syr.edu">xliu155@syr.edu</a></p>
+                </div>
+                
+                <div class="linkedin">
+                    <p style="display:inline">Visit my Linkedin profil: </p> 
+                    <p style="display:inline"><img src="../Images/logo-word.png" alt="Linkedin logo">
+                        <a href="https://www.linkedin.com/in/xiaoyi-liu-xliu70524">My Linkedln Profile</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <article class="p2">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46668.40616519603!2d-76.11158042636718!3d43.025114756111655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1599750841023!5m2!1sen!2sus"  frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <div class="form">
+                <h2>Contact me</h2>
+                <form action="mailto:xliu155@syr.edu" method="post">
+
+                    Please Enter your name:<br>
+                    <lable for="fname">First Name:</lable><br>
+                    <input type="text" id="fname" name="fname" style="width: 70%;"><br>
+                    <lable for="lname">Last Name:</lable><br>
+                    <input type="text" id="lname" name="lname" style="width: 70%;">
+                    <br>
+                    <br>
+
+                    Please select your Gender:<br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <lable for="male">Male</lable><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <lable for="female">Female</lable><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <lable for="other">other</lable>
+                    <br>
+                    <br>
+
+                    <label for="coment">Comment:</label><br>
+                    <textarea id="coment" name="comment" style="width: 70%; height: 60px;">
+
+
+                    </textarea><br>
+                    <input type="submit" value="Submit">
+            </div>
+        </article>
+
+        </form>
+    
+    </body>
+</html>
