@@ -1,0 +1,205 @@
+img {
+    max-width: 100%;
+}
+.welcomeimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.logo {
+    position: absolute;
+    width: 78%;
+    height: 78%;
+    top: 40%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+.homepageh1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.3em;
+    letter-spacing: 0.2em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainnav {
+    text-align: center;
+}
+.mainnav a {
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    padding: 40px;
+    margin: 5px;
+    color: black;
+ }
+ .mainnav a:hover {
+    color:orange;
+}
+.intro {
+    display: flex;
+    margin: 1.5em
+}
+.China-intro {
+    padding: 15px; 
+    flex: 1;
+    order: 1; 
+}
+.China-intro p {
+    padding: 5px;
+}
+.Japan-intro {
+    padding: 15px;
+    flex: 1;
+    order: 2;
+}
+.Japan-intro p {
+    padding: 5px; 
+}
+.NY-intro {
+    padding: 15px;
+    flex: 1;
+    order: 3;
+}
+.NY-intro p {
+    padding: 5px;
+}
+.quote {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+
+.head {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    font-size: 1.8em;
+    padding: 0.1em;
+    margin-left: 1em;
+    flex: 1;
+    order: 1;
+
+}
+nav {
+    flex: 3;
+    order: 2;
+}
+nav a {
+    font-size: 1.4em;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    margin-top: 12px;
+    color: black;
+ }
+
+ nav a:hover {
+    color:orange;
+}
+.info {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    margin: 30px;
+}
+.travel-info {
+    flex: 1; 
+    order: 1;
+    letter-spacing: 0.5px;
+}
+ul {
+    margin: 0.8em;
+    padding: 0;
+}
+.Info-Xizang { 
+    flex: 2;
+    order: 2;
+    letter-spacing: 0.5px;
+}
+
+
+.addinfo {
+    font-family: 'Josefin Sans', sans-serif;
+    display:flex;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.Tipsh2 {
+    margin: 1em;
+}
+.map-Xizang {
+    flex: 1; 
+    order: 1;
+}
+iframe {
+    width: 100%;
+    height: 80%;
+}
+.tips-Xizang {
+    flex: 1;
+    order: 2; 
+    letter-spacing: 1px;
+}
+.lowlist {
+    margin-left: 2.5em;
+}
+
+
+.Info-Osaka {
+    flex: 2;
+    order: 2;
+    letter-spacing: 0.5px;
+}
+.map-Osaka {
+    flex: 1; 
+    order: 1;
+}
+.tips-Osaka {
+    flex: 1;
+    order: 2; 
+    letter-spacing: 1px;
+}
+
+
+.Info-NYC {
+    flex: 2;
+    order: 2;
+    letter-spacing: 0.5px;
+}
+.map-NYC {
+    flex: 1; 
+    order: 1;
+}
+.tips-NYC {
+    flex: 1;
+    order: 2; 
+    letter-spacing: 1px;
+}
+
+
+.Info-Sydney {
+    flex: 2;
+    order: 2;
+    letter-spacing: 0.5px;
+}
+.map-Sydney {
+    flex: 1; 
+    order: 1;
+}
+.tips-Sydney {
+    flex: 1;
+    order: 2; 
+    letter-spacing: 1px;
+}
