@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@500&family=Lobster&display=swap');
+
 img {
     max-width: 100%;
 }
@@ -19,9 +21,9 @@ img {
     transform: translate(-50%, -50%);
 }
 .homepageh1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.3em;
-    letter-spacing: 0.2em;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    letter-spacing: 0.3em;
     color: white;
     text-align: center;
     position: absolute;
@@ -44,6 +46,7 @@ img {
     color:orange;
 }
 .intro {
+    font-family: 'Josefin Sans', sans-serif;
     display: flex;
     margin: 1.5em
 }
@@ -54,6 +57,7 @@ img {
 }
 .China-intro p {
     padding: 5px;
+    word-spacing: 1px; 
 }
 .Japan-intro {
     padding: 15px;
@@ -62,6 +66,7 @@ img {
 }
 .Japan-intro p {
     padding: 5px; 
+    word-spacing: 1px; 
 }
 .NY-intro {
     padding: 15px;
@@ -70,14 +75,13 @@ img {
 }
 .NY-intro p {
     padding: 5px;
+    word-spacing: 1px; 
 }
 .quote {
     float: right;
     margin: 0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
-
 
 
 .head {
@@ -122,11 +126,14 @@ nav a {
 ul {
     margin: 0.8em;
     padding: 0;
+    font-size: 1.1em; 
 }
 .Info-Xizang { 
     flex: 2;
     order: 2;
     letter-spacing: 0.5px;
+    font-size: 1.15em; 
+    word-spacing: 1px;
 }
 
 
@@ -154,6 +161,7 @@ iframe {
 }
 .lowlist {
     margin-left: 2.5em;
+    font-size: 1.1em; 
 }
 
 
@@ -161,6 +169,7 @@ iframe {
     flex: 2;
     order: 2;
     letter-spacing: 0.5px;
+    font-size: 1.15em;
 }
 .map-Osaka {
     flex: 1; 
@@ -177,6 +186,7 @@ iframe {
     flex: 2;
     order: 2;
     letter-spacing: 0.5px;
+    font-size: 1.15em;
 }
 .map-NYC {
     flex: 1; 
@@ -193,6 +203,7 @@ iframe {
     flex: 2;
     order: 2;
     letter-spacing: 0.5px;
+    font-size: 1.15em;
 }
 .map-Sydney {
     flex: 1; 
@@ -203,3 +214,6 @@ iframe {
     order: 2; 
     letter-spacing: 1px;
 }
+
+
+
