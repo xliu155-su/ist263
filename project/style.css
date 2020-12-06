@@ -123,10 +123,10 @@ footer {
     display: inline-block;
 }
 .footer-logo h3 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .footer-logo img{
-    width: 40px;
+    width: 38px;
     height: auto;
     margin-right: 5px;
     border-radius: 5px;
@@ -134,10 +134,10 @@ footer {
 }
 .quote {
     font-family: 'Lobster', cursive;
-    font-size: 1.em;
+    font-size: 1.5em;
     float: right;
     margin: 1.3em;
-    padding: 0;
+    padding: 5px 0 0 0;
 }
 
 
