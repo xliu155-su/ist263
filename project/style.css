@@ -3,7 +3,31 @@
 img {
     max-width: 100%;
 }
+
 .welcomeimg {
+    display: none;
+}
+
+.logo {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    padding: 0em;
+}
+.homepageh1 {
+    margin: 0;
+    border: 0;
+}
+.world-map {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+ 
+/*
+.welcomeimg {
+    display: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,8 +35,11 @@ img {
     height: 100%;
     margin: 0;
 }
+
 .logo {
     position: absolute;
+    max-width: 100%;
+    height: auto;
     width: 78%;
     height: 78%;
     top: 40%;
@@ -20,6 +47,7 @@ img {
     margin: 0;
     transform: translate(-50%, -50%);
 }
+
 .homepageh1 {
     font-family: 'Lobster', cursive;
     font-size: 2.5em;
@@ -31,29 +59,24 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.mainnav {
-    text-align: center;
-}
-.mainnav a {
-    font-size: 1.5em;
-    font-family: 'Josefin Sans', sans-serif;
-    display: inline-block;
-    padding: 40px;
-    margin: 5px;
-    color: black;
- }
- .mainnav a:hover {
-    color:orange;
-}
+*/
+
+
 .intro {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     margin: 1.5em
 }
+
 .China-intro {
     padding: 15px; 
     flex: 1;
     order: 1; 
+    margin: 0 0.5em 0 0;
+    border: solid 0.3em orange;
+}
+.China-intro:hover {
+    border-color: rgb(246, 123, 143);
 }
 .China-intro p {
     padding: 5px;
@@ -63,6 +86,11 @@ img {
     padding: 15px;
     flex: 1;
     order: 2;
+    margin: 0 0.5em 0 0.5em;
+    border: solid 0.3em orange;
+}
+.Japan-intro:hover {
+    border-color: rgb(246, 123, 143);
 }
 .Japan-intro p {
     padding: 5px; 
@@ -72,41 +100,63 @@ img {
     padding: 15px;
     flex: 1;
     order: 3;
+    margin: 0 0.5em 0 ;
+    border: solid 0.3em orange;
+}
+.NY-intro:hover {
+    border-color: rgb(246, 123, 143);
 }
 .NY-intro p {
     padding: 5px;
     word-spacing: 1px; 
 }
+
+footer {
+    margin: 2em 1em 2em 1em;
+}
+.bottom {
+    margin: 3em 0 3em 0;
+}
+.footer-logo {
+    margin: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+}
+.footer-logo h3 {
+    font-size: 2.5em;
+}
+.footer-logo img{
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
 .quote {
+    font-family: 'Lobster', cursive;
+    font-size: 1.em;
     float: right;
-    margin: 0;
+    margin: 1.3em;
     padding: 0;
 }
 
 
 .head {
-    display: flex;
     font-family: 'Josefin Sans', sans-serif;
+    padding-top: 1.3em;
 }
 h1 {
-    font-size: 1.8em;
-    padding: 0.1em;
-    margin-left: 1em;
-    flex: 1;
-    order: 1;
+    font-size: 1em;
+    padding-top: 0.3em;
+    margin: 1em;
+}
 
-}
-nav {
-    flex: 3;
-    order: 2;
-}
 nav a {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-family: 'Josefin Sans', sans-serif;
-    display: inline-block;
-    padding: 20px;
+    padding: 15px;
     margin: 5px;
-    margin-top: 12px;
+    margin-top: 10px;
     color: black;
  }
 
@@ -116,9 +166,12 @@ nav a {
 .info {
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
-    margin: 30px;
+    margin: 2em 2em 1em 2em;
 }
 .travel-info {
+    padding-top: 0.8em;
+    padding-left: 1.6em;
+    padding-right: 10px;
     flex: 1; 
     order: 1;
     letter-spacing: 0.5px;
@@ -129,90 +182,171 @@ ul {
     font-size: 1.1em; 
 }
 .Info-Xizang { 
+    font-family: Arial, Helvetica, sans-serif;
     flex: 2;
     order: 2;
     letter-spacing: 0.5px;
     font-size: 1.15em; 
-    word-spacing: 1px;
+    word-spacing: 0.5px;
 }
-
-
 .addinfo {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display:flex;
     margin: 30px;
     flex-wrap: wrap;
 }
 .Tipsh2 {
     margin: 1em;
+    margin-bottom: 0.3em;
 }
 .map-Xizang {
+    margin-top: 2em;
     flex: 1; 
     order: 1;
+}
+.map-Xizang h3 {
+    letter-spacing: 1px;
 }
 iframe {
     width: 100%;
     height: 80%;
+    padding-top: 10px;
 }
 .tips-Xizang {
     flex: 1;
     order: 2; 
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
 }
 .lowlist {
     margin-left: 2.5em;
     font-size: 1.1em; 
 }
 
-
 .Info-Osaka {
+    font-family: Arial, Helvetica, sans-serif;
     flex: 2;
     order: 2;
     letter-spacing: 0.5px;
     font-size: 1.15em;
+    word-spacing: 0.5px;
 }
 .map-Osaka {
+    margin-top: 2em;
     flex: 1; 
     order: 1;
+}
+.map-Osaka h3 {
+    letter-spacing: 1px;
 }
 .tips-Osaka {
     flex: 1;
     order: 2; 
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
 }
 
 
 .Info-NYC {
+    font-family: Arial, Helvetica, sans-serif;
     flex: 2;
     order: 2;
     letter-spacing: 0.5px;
     font-size: 1.15em;
+    word-spacing: 0.5px;
 }
 .map-NYC {
+    margin-top: 2em;
     flex: 1; 
     order: 1;
+}
+.map-NYC h3 {
+    letter-spacing: 1px;
 }
 .tips-NYC {
     flex: 1;
     order: 2; 
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
 }
 
 
 .Info-Sydney {
+    font-family: Arial, Helvetica, sans-serif;
     flex: 2;
     order: 2;
-    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
     font-size: 1.15em;
 }
 .map-Sydney {
+    margin-top: 2em;
     flex: 1; 
     order: 1;
+}
+.map-Sydney h3 {
+    letter-spacing: 1px;
 }
 .tips-Sydney {
     flex: 1;
     order: 2; 
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
+}
+
+#navbarSupportedContent a:hover {
+    color: orange;
+}
+
+.d-inline-block.align-top {
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand{
+    font-size: 1.5em;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 80%;
+        border: none;
+    }
+    
+    .intro {
+        flex-direction: column;
+    }
+    .China-intro {
+        padding: 15px; 
+        flex: 1;
+        order: 1; 
+        margin: 0 0 0.5em 0;
+        border: solid 0.3em orange;
+    }
+    .Japan-intro {
+        padding: 15px; 
+        flex: 1;
+        order: 1; 
+        margin: 0.5em 0 0.5em 0;
+        border: solid 0.3em orange;
+    }
+    .NY-intro {
+        padding: 15px; 
+        flex: 1;
+        order: 1; 
+        margin: 0.5em 0 0 0;
+        border: solid 0.3em orange;
+    }
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info ul {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    .info li {
+        display: inline-block;
+    }
+    .addinfo {
+        flex-direction: column;
+    }
 }
 
 
