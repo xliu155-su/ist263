@@ -67,6 +67,10 @@ img {
     display: flex;
     margin: 1.5em
 }
+.intro h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
 .China-intro {
     padding: 15px; 
